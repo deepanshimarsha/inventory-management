@@ -1,0 +1,99 @@
+.product-main{
+    margin-left: 14rem;
+}
+table {
+    width: 100%;
+    border-collapse: collapse; /* Merge adjacent cell borders */
+    border: 1px solid #ccc; /* Border around the entire table */
+  }
+  
+  /* Style table headers */
+  th {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Style table cells */
+  td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  /* Add alternating row colors */
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .product-list{
+    margin: 20px 50px;
+  }
+  .product-main{
+    padding: 20px 0px;
+  }
+
+  .btn a{
+    color: white;
+    text-decoration: none;
+  }
+
+  .form-main{
+    text-align: left;
+    margin-left: 3rem;
+  }
+  .form{
+    padding-top: 20px;
+    width: 80%;
+  }
+  .form label{
+    font-size: large;
+  }
+  
+  .error{
+    color: red;
+  }
+
+  .dashboard{
+    margin-top: 50px;
+  }
+  .dashboard span{
+    width: 220px;
+    height: 12vh;
+    margin: 5px;
+    color: black;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin: 5px 20px;
+    
+  }
+  .dashboard span div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding: 5px;
+
+  }
+  .dashboard .count{
+    color: orange;
+  }
+  .department{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin: auto;
+    margin-top: 50px;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+  }
+  .department button{
+    width: 30%;
+    padding: 30px 0;
+    font-size: larger;
+    font-weight: 600;
+  }
+
+  
+

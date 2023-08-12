@@ -1,0 +1,19 @@
+.product-detail{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 5rem;
+    gap: 2rem;
+}
+.subdetails{
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.subdetails div{
+    font-size: larger;
+    padding: 5px 0px;
+    font-weight: 600;
+
+}
